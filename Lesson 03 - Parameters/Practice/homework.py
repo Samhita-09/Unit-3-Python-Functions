@@ -1,7 +1,7 @@
 # Question 5
 
-# Output1: 18.00
-# Output2: 15.00
+# Output1: 18.0
+# Output2: 15.0
 
 # Question 6
 
