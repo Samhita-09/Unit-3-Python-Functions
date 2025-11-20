@@ -15,7 +15,7 @@ def search_user_database(searchquery):
             result = count
             message = f"Found {result} user(s) matching '{searchquery}"
             success = True
-    
+
     if count == 0:
         return 0, "No users found", True
     
