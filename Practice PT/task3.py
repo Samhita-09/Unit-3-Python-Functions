@@ -42,7 +42,12 @@ def playlist_stats(*durations):
     # Hint 1: Check if durations is empty FIRST (if not durations:)
     # Hint 2: Use sum() and len() for calculations
     # Hint 3: Return three values separated by commas
-    pass
+    if not durations:
+        return 0, 0, 0.0
+    total_time = sum(durations)
+    song_count = len(durations)
+    avg_length = total_time / song_count
+    return total_time, song_count, round(avg_length, 2)
 
 
 # =============================================================================
